@@ -121,7 +121,3 @@ function accDiv(arg1, arg2) {
 Number.prototype.div = function(arg) {
   return accDiv(this, arg)
 }
-
-var num = 3
-
-console.log(num.sub(1))
